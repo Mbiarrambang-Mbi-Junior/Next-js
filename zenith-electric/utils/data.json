@@ -1,0 +1,58 @@
+{
+    "navLinks": [
+        {
+            "name": "Home",
+            "link": "/",
+            "alt": "hero-section"
+        },
+        {
+            "name": "About Us",
+            "link": "/#about",
+            "alt": "about-section"
+        },
+        {
+            "name": "Courses",
+            "link": "/#courses",
+            "alt": "courses-section"
+        },
+        {
+            "name": "Services",
+            "link": "/#services",
+            "alt": "services-section"
+        },
+        {
+            "name": "Contact",
+            "link": "/#contact",
+            "alt": "contact-section"
+        }
+    ],
+    "courses": [
+        {
+            "id": "SYS-ARC-01",
+            "title": "Industrial Automation & PLC Mastery",
+            "level": "Intermediate / Advanced",
+            "duration": "08 Weeks",
+            "icon": "Cpu",
+            "status": "PUBLIC_ACCESS",
+            "desc": "Comprehensive training on Siemens and Allen Bradley systems, focusing on industrial process control and IEC 61131-3 standards."
+        },
+        {
+            "id": "SEC-PRO-02",
+            "title": "IEC Standards & Electrical Safety",
+            "level": "Professional Cert",
+            "duration": "04 Weeks",
+            "icon": "ShieldCheck",
+            "status": "OPEN_SOURCE",
+            "desc": "In-depth study of IEC 60364 and IEC 62271 for safety, protection, and insulation coordination in CEMAC industrial landscapes."
+        },
+        {
+            "id": "IOT-OPT-03",
+            "title": "Smart BEMS & IoT Integration",
+            "level": "Advanced Specialist",
+            "duration": "06 Weeks",
+            "icon": "Zap",
+            "status": "ZERO_COST",
+            "desc": "Design and deploy Building Energy Management Systems using IoT protocols for modern industrial infrastructure."
+        }
+    ]
+}

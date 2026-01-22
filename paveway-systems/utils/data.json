@@ -1,0 +1,22 @@
+{
+  "navbar": [
+    {
+      "name": "Home",
+      "href": "/"
+    },
+    {
+      "name": "About",
+      "href": "/about"
+    },
+    {
+      "name": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "images": [
+    {
+      "name": "PaveWay",
+      "href": "components/images/PaveWay.jpeg"
+    }
+  ]
+}

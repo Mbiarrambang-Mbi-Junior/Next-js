@@ -1,0 +1,166 @@
+{
+    "Metadata": {
+        "title": "Coffee",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "logo": "/1food.png",
+        "alt": "Coffee"
+    },
+    "navLinks": [
+        {
+            "id": 1,
+            "name": "lorem",
+            "href": "#home"
+        },
+        {
+            "id": 2,
+            "name": "lorem",
+            "href": "#about"
+        },
+        {
+            "id": 3,
+            "name": "lorem",
+            "href": "#solution"
+        },
+        {
+            "id": 4,
+            "name": "lorem",
+            "href": "#services"
+        },
+        {
+            "id": 5,
+            "name": "lorem",
+            "href": "#contact"
+        }
+    ],
+    "images": [
+    {
+        "id": 1,
+        "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=2070",
+        "alt": "Cozy cafe table with latte art and coffee beans"
+    },
+    {
+        "id": 2,
+        "url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1260",
+        "alt": "Close-up of freshly roasted dark coffee beans"
+    },
+    {
+        "id": 3,
+        "url": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=2000",
+        "alt": "Professional barista pouring hot water for drip coffee"
+    },
+    {
+        "id": 4,
+        "url": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260",
+        "alt": "Steam rising from a fresh cup of black coffee"
+    }
+],
+    "themes": {
+        "lightTheme": {
+            "color": {
+                "primary": "#1e1e1e",
+                "secondary": "#fff",
+                "yellow": "#fce954",
+                "buttonBg1": "#c39574",
+                "buttonBg2": "#cabfae",
+                "buttonText": "#fff"
+            }
+        },
+        "darkTheme": {
+            "color": {
+                "primary": "#000",
+                "secondary": "#333",
+                "buttonText": "#fff"
+            }
+        }
+    },
+    "heroContent": {
+        "title": "lorem",
+        "subTitle": "lorem",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    "aboutContent": {
+        "title": "lorem",
+        "subTitle": "Our main menu",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "cards": [
+            {
+                "id": 1,
+                "name": "Pizza",
+                "ratings": "4.5",
+                "description": "Description",
+                "price": "100"
+            },
+            {
+                "id": 2,
+                "name": "Pizza",
+                "ratings": "4.5",
+                "description": "Description",
+                "price": "100"
+            },
+            {
+                "id": 3,
+                "name": "Pizza",
+                "ratings": "4.5",
+                "description": "Description",
+                "price": "100"
+            }
+        ]
+    },
+    "milkshakeContent": {
+    "title": "TOP MILK SHAKES",
+    "subTitle": "Explore The Recent Most Bought Shakes This Week",
+    "items": [
+        {
+            "id": 1,
+            "name": "Mocha Shake",
+            "price": "20.00",
+            "likes": 45,
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&q=80&w=1000",
+            "bgColor": "#f3f4f6"
+        },
+        {
+            "id": 2,
+            "name": "Lavender Shake",
+            "price": "22.00",
+            "likes": 38,
+            "image": "https://images.unsplash.com/photo-1579954115545-a95591f28be0?auto=format&fit=crop&q=80&w=1000",
+            "bgColor": "#f3e8ff"
+        },
+        {
+            "id": 3,
+            "name": "Caramel Shake",
+            "price": "18.50",
+            "likes": 52,
+            "image": "https://images.unsplash.com/photo-1541658016709-827b58629d78?auto=format&fit=crop&q=80&w=1000",
+            "bgColor": "#fef3c7"
+        }
+    ]
+},
+"blogContent": {
+    "title": "OUR LATEST NEWS",
+    "subTitle": "Read Our Latest Insights About Coffee Culture",
+    "posts": [
+        {
+            "id": 1,
+            "date": "Dec 24, 2025",
+            "title": "The Art of Perfect Latte Art",
+            "excerpt": "Discover the secrets behind creating beautiful designs on your morning coffee...",
+            "image": "https://images.unsplash.com/photo-1534706936160-d5ee67737049?auto=format&fit=crop&q=80&w=800"
+        },
+        {
+            "id": 2,
+            "date": "Dec 20, 2025",
+            "title": "Why Roasted Beans Matter",
+            "excerpt": "Exploring how the roasting process changes the flavor profile of your favorite beans...",
+            "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=800"
+        },
+        {
+            "id": 3,
+            "date": "Dec 15, 2025",
+            "title": "Coffee Around The World",
+            "excerpt": "A journey through the different ways coffee is enjoyed across various continents...",
+            "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=800"
+        }
+    ]
+}
+}
