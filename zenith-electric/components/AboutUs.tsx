@@ -12,12 +12,12 @@ import {
 
 function AboutUs() {
   const expertise = [
-    { title: "Residential Wiring", icon: <Home /> },
-    { title: "Commercial Wiring", icon: <Building2 /> },
-    { title: "Industrial Wiring", icon: <Factory /> },
-    { title: "Automation & Controls", icon: <Cpu /> },
-    { title: "BEMS", icon: <BarChart3 /> },
-    { title: "Electrical Design", icon: <DraftingCompass /> }
+    { title: "Residential Wiring", icon: <Home size={32} strokeWidth={1.5} /> },
+    { title: "Commercial Wiring", icon: <Building2 size={32} strokeWidth={1.5} /> },
+    { title: "Industrial Wiring", icon: <Factory size={32} strokeWidth={1.5} /> },
+    { title: "Automation & Controls", icon: <Cpu size={32} strokeWidth={1.5} /> },
+    { title: "BEMS", icon: <BarChart3 size={32} strokeWidth={1.5} /> },
+    { title: "Electrical Design", icon: <DraftingCompass size={32} strokeWidth={1.5} /> }
   ];
 
   return (
@@ -51,7 +51,7 @@ function AboutUs() {
             className="group flex flex-col items-center justify-center text-center p-8 border border-white/5 hover:bg-blue-600/5 hover:border-blue-500/30 transition-all duration-300"
           >
             <div className="mb-4 text-blue-500 group-hover:text-blue-400 group-hover:scale-110 transition-all duration-300">
-              {React.cloneElement(item.icon as React.ReactElement, { size: 32, strokeWidth: 1.5 })}
+              {React.cloneElement(item.icon as React.ReactElement)}
             </div>
             <h2 className="text-[10px] text-slate-500 group-hover:text-white uppercase tracking-[0.2em] transition-colors">
               {item.title}
