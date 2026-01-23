@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import image from "@/public/zenith-electric.png"
+import image from "@/app/favicon.ico"
 
 function ZenithElectric() {
   return (

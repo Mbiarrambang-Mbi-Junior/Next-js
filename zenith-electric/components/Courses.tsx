@@ -28,7 +28,7 @@ function Courses() {
   }));
 
   return (
-    <main className="min-h-screen bg-[#0b0e14] text-white pb-16 relative overflow-hidden font-sans">
+    <main className="min-h-screen pt-10 bg-[#0b0e14] text-white pb-16 relative overflow-hidden font-sans">
 
       {/* BACKGROUND HEX GRID */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none"
