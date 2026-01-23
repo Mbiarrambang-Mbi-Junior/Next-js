@@ -1,17 +1,24 @@
+"use client"
+
 import Image from "next/image"
-import image from "@/public/Zenith Electric.jpeg"
+import image from "@/public/zenith-electric.png"
 
 function ZenithElectric() {
   return (
-        <div className="zenith-electric">
-            <Image 
-                src={image} // Path to your image in the 'public' folder
-                alt="Description of the food" 
-                width={50}          
-                height={50}          
-                className="rounded-full"
-            />
-        </div>
+    /* FIX: 
+       1. Added 'overflow-hidden' to clip the scaled image.
+       2. Set the div to the same width/height as the image (w-[50px] h-[50px]).
+       3. Added 'rounded-full' here as well to ensure the container is a circle.
+    */
+    <div className="zenith-electric w-[50px] h-[50px] overflow-hidden rounded-full">
+      <Image 
+        src={image} 
+        alt="Zenith Electric Logo" 
+        width={50}          
+        height={50}          
+        className="rounded-full transition-transform duration-300 scale-200 object-cover"
+      />
+    </div>
   )
 }
 

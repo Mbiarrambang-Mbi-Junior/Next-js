@@ -21,23 +21,26 @@ function AboutUs() {
   ];
 
   return (
-    <section className="flex flex-col lg:flex-row min-h-[80vh] bg-[#0b0e14] items-stretch border-t border-white/5">
+    <section className="flex flex-col lg:flex-row min-h-[80vh] bg-[#0b0e14] items-stretch border-t border-green-500/10">
       
       {/* LEFT SIDE: Text Content */}
-      <div className="flex flex-col justify-center p-10 md:p-20 bg-[#0f121a] lg:w-1/2">
-        <div className="max-w-md">
-          <h2 className="text-blue-500 tracking-[0.3em] text-[10px] uppercase mb-4">
+      <div className="flex flex-col justify-center p-10 md:p-20 bg-[#0d111a] lg:w-1/2 relative overflow-hidden">
+        {/* Subtle Decorative Glow */}
+        <div className="absolute -top-24 -left-24 w-64 h-64 bg-green-500/5 blur-[120px] rounded-full"></div>
+        
+        <div className="max-w-md relative z-10">
+          <h2 className="text-green-500 tracking-[0.3em] text-[10px] uppercase mb-4 font-bold">
             Engineering Excellence
           </h2>
           <h1 className="text-4xl md:text-5xl text-white mb-6 tracking-tight uppercase italic">
-            About Us
+            About <span className="text-green-500 text-shadow-glow">Us</span>
           </h1>
-          <p className="text-lg text-slate-400 mb-8 leading-relaxed border-l border-blue-600/50 pl-6">
+          <p className="text-lg text-white mb-8 leading-relaxed border-l border-green-500/50 pl-6">
             Zenith Electric is a leading provider of premium electrical services in Cameroon, 
             headquartered in Buea. We specialize in high-standard automation, safety, and innovative 
             energy solutions compliant with global IEC standards.
           </p>
-          <button className="w-fit bg-transparent hover:bg-blue-600 text-blue-500 hover:text-white border-2 border-blue-600 px-8 py-3 rounded-md transition-all capitalize tracking-widest active:scale-95 shadow-[0_0_20px_rgba(37,99,235,0.1)]">
+          <button className="w-fit bg-transparent hover:bg-green-500 text-green-500 hover:text-black border-2 border-green-500 px-8 py-3 rounded-md transition-all capitalize tracking-widest active:scale-95 shadow-[0_0_25px_rgba(34,197,94,0.2)]">
             Explore Services
           </button>
         </div>
@@ -48,12 +51,15 @@ function AboutUs() {
         {expertise.map((item, index) => (
           <div 
             key={index} 
-            className="group flex flex-col items-center justify-center text-center p-8 border border-white/5 hover:bg-blue-600/5 hover:border-blue-500/30 transition-all duration-300"
+            className="group flex flex-col items-center justify-center text-center p-8 border border-green-500/5 hover:bg-green-500/[0.03] hover:border-green-500/30 transition-all duration-300 relative overflow-hidden"
           >
-            <div className="mb-4 text-blue-500 group-hover:text-blue-400 group-hover:scale-110 transition-all duration-300">
+            {/* Hover Glow Effect */}
+            <div className="absolute inset-0 bg-green-500/0 group-hover:bg-green-500/5 transition-all duration-500"></div>
+            
+            <div className="mb-4 text-green-500 group-hover:text-green-400 group-hover:scale-110 transition-all duration-300 relative z-10 drop-shadow-[0_0_8px_rgba(34,197,94,0.4)]">
               {React.cloneElement(item.icon as React.ReactElement)}
             </div>
-            <h2 className="text-[10px] text-slate-500 group-hover:text-white uppercase tracking-[0.2em] transition-colors">
+            <h2 className="text-[10px] text-gray-500/50 group-hover:text-white uppercase tracking-[0.2em] transition-colors relative z-10">
               {item.title}
             </h2>
           </div>

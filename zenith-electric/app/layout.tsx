@@ -1,3 +1,5 @@
+// main layout
+
 import type { Metadata } from "next";
 import NavBar from "../components/NavBar";
 import { Geist, Geist_Mono } from "next/font/google";
