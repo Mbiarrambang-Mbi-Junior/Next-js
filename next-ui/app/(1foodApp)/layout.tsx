@@ -19,7 +19,7 @@ export default function FoodLayout({ children }: { children: React.ReactNode }) 
           backgroundImage: `url(${foodData.images[0].url})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          filter: "blur(10px)",
+          filter: "blur(5px)",
           transform: "scale(1.1)" 
         }}
       />

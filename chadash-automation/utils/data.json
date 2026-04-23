@@ -1,0 +1,237 @@
+{
+  "navLinks": [
+    {
+      "name": "Home",
+      "link": "/",
+      "alt": "hero-section"
+    },
+    {
+      "name": "About Us",
+      "link": "/#about",
+      "alt": "about-section"
+    },
+    {
+      "name": "Play Ground",
+      "link": "/#openplc-sandbox",
+      "alt": "play-ground-section"
+    },
+    {
+      "name": "Courses",
+      "link": "/#courses",
+      "alt": "courses-section"
+    },
+    {
+      "name": "Services",
+      "link": "/#services",
+      "alt": "services-section"
+    },
+    {
+      "name": "Contact",
+      "link": "/#contact",
+      "alt": "contact-section"
+    }
+  ],
+  "courses": [
+    {
+      "id": "MCU-BAS-01",
+      "title": "Microcontroller programming",
+      "level": "Beginner",
+      "duration": "02 Weeks",
+      "icon": "DraftingCompass",
+      "status": "PUBLIC_ACCESS",
+      "desc": "Master microcontroller programming for wiring and installation."
+    },
+    {
+      "id": "IOT-OPT-02",
+      "title": "Smart BEMS & IoT Integration",
+      "level": "Advanced Specialist",
+      "duration": "06 Weeks",
+      "icon": "Zap",
+      "status": "ZERO_COST",
+      "desc": "Design and deploy Building Energy Management Systems using IoT protocols for modern industrial infrastructure."
+    },
+    {
+      "id": "SCH-BAS-03",
+      "title": "Schematic savvy and drafting",
+      "level": "Beginner",
+      "duration": "02 Weeks",
+      "icon": "DraftingCompass",
+      "status": "PUBLIC_ACCESS",
+      "desc": "Master schematics and drafting for wiring and installation."
+    },
+    {
+      "id": "SEC-PRO-04",
+      "title": "IEC Standards & Electrical Safety",
+      "level": "Professional Cert",
+      "duration": "04 Weeks",
+      "icon": "ShieldCheck",
+      "status": "OPEN_SOURCE",
+      "desc": "In-depth study of IEC 60364 and IEC 62271 for safety, protection, and insulation coordination in CEMAC industrial landscapes."
+    },
+    {
+      "id": "SYS-ARC-05",
+      "title": "Industrial Automation & PLC Mastery",
+      "level": "Intermediate / Advanced",
+      "duration": "08 Weeks",
+      "icon": "Cpu",
+      "status": "PUBLIC_ACCESS",
+      "desc": "Comprehensive training on Siemens and Allen Bradley systems, focusing on industrial process control and IEC 61131-3 standards."
+    },
+    {
+      "id": "RPA-ADV-06",
+      "title": "Advanced Robotic Process Automation",
+      "level": "Specialist",
+      "duration": "06 Weeks",
+      "icon": "Settings",
+      "status": "PUBLIC_ACCESS",
+      "desc": "Master the integration of industrial robotics with AI-driven software agents to automate complex multi-stage manufacturing workflows."
+    }
+  ],
+  "customProducts": [
+    {
+      "id": "01",
+      "name": "Custom PLCs",
+      "image": "https://images.unsplash.com/photo-1591438760441-89704e67271a?q=80&w=600&auto=format&fit=crop",
+      "description": "Industrial-grade Programmable Logic Controllers tailored for specific manufacturing workflows."
+    },
+    {
+      "id": "02",
+      "name": "Custom SCADA",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop",
+      "description": "Supervisory Control and Data Acquisition systems with intuitive real-time monitoring."
+    },
+    {
+      "id": "03",
+      "name": "Analogue Inputs",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=600&auto=format&fit=crop",
+      "description": "High-precision 4-20mA and 0-10V input modules for sensor data acquisition."
+    },
+    {
+      "id": "04",
+      "name": "Analogue Outputs",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc4b?q=80&w=600&auto=format&fit=crop",
+      "description": "Control actuators and valves with smooth, variable voltage and current signals."
+    },
+    {
+      "id": "05",
+      "name": "Digital Inputs",
+      "image": "https://images.unsplash.com/photo-1635335231563-845214588e6e?q=80&w=600&auto=format&fit=crop",
+      "description": "Reliable 24V DC discrete inputs for switches, sensors, and proximity triggers."
+    },
+    {
+      "id": "06",
+      "name": "Digital Outputs",
+      "image": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?q=80&w=600&auto=format&fit=crop",
+      "description": "High-speed relay and transistor outputs for industrial automation control."
+    }
+  ],
+  "services": [
+    {
+      "id": "01",
+      "title": "Automation & Process Control",
+      "icon": "Cpu",
+      "desc": "Custom PLC programming and SCADA integration for industrial efficiency.",
+      "features": ["PLC/HMI", "VFD Control", "Sensors"]
+    },
+    {
+      "id": "02",
+      "title": "BEMS & Smart IoT",
+      "icon": "Network",
+      "desc": "Optimizing HVAC and power usage via high-fidelity IoT sensor arrays.",
+      "features": ["Analytics", "IoT", "Load Shedding"]
+    },
+    {
+  "id": "03",
+  "title": "PCB Design with KiCAD",
+  "icon": "GiCircuitry", 
+  "desc": "End-to-end hardware development, from schematic capture to multi-layer PCB layout and manufacturing preparation.",
+  "features": [
+    "Custom footprint & symbol creation",
+    "BOM generation & Gerber export",
+    "3D visualization & enclosure fit-check"
+  ]
+},
+    {
+      "id": "04",
+      "title": "Electrical Schematic Design",
+      "icon": "Layout",
+      "desc": "Precision CAD drafting compliant with global IEC safety standards.",
+      "features": ["CAD", "Panels", "Circuit Mapping"]
+    },
+    {
+      "id": "05",
+      "title": "Industrial & Commercial Wiring",
+      "icon": "Factory",
+      "desc": "Infrastructure and cable management for heavy-load industrial hubs.",
+      "features": ["Power Systems", "Cable Management", "Switchgear"]
+    }
+  ],
+  "sideItems": [
+    { "label": "Getting Started", "icon": "PlayCircle" },
+    { "label": "Platform Features", "icon": "Cpu" },
+    { "label": "IEC 61131-3 Programming", "icon": "Code" },
+    { "label": "Advanced Topics", "icon": "Shield" },
+    { "label": "Reference", "icon": "Terminal" }
+  ],
+  "courseDetails": {
+    "MCU-BAS-01": [
+      { "id": 1, "label": "Getting Started", "icon": "PlayCircle" },
+      { "id": 2, "label": "Hardware Architecture", "icon": "Cpu" },
+      { "id": 3, "label": "C-Language Logic", "icon": "Code" },
+      { "id": 4, "label": "Interrupt Handling", "icon": "Shield" },
+      { "id": 5, "label": "Register Reference", "icon": "Terminal" }
+    ],
+    "IOT-OPT-02": [
+      { "id": 1, "label": "IoT Ecosystem", "icon": "PlayCircle" },
+      { "id": 2, "label": "Gateway Protocols", "icon": "Cpu" },
+      { "id": 3, "label": "Cloud Integration", "icon": "Code" },
+      { "id": 4, "label": "Encryption Standards", "icon": "Shield" },
+      { "id": 5, "label": "API Documentation", "icon": "Terminal" }
+    ],
+    "SCH-BAS-03": [
+      { "id": 1, "label": "Getting Started", "icon": "PlayCircle" },
+      { "id": 2, "label": "Hardware Architecture", "icon": "Cpu" },
+      { "id": 3, "label": "C-Language Logic", "icon": "Code" },
+      { "id": 4, "label": "Interrupt Handling", "icon": "Shield" },
+      { "id": 5, "label": "Register Reference", "icon": "Terminal" }
+    ],
+    "IEC-PRO-04": [
+      { "id": 1, "label": "Getting Started", "icon": "PlayCircle" },
+      { "id": 2, "label": "Hardware Architecture", "icon": "Cpu" },
+      { "id": 3, "label": "C-Language Logic", "icon": "Code" },
+      { "id": 4, "label": "Interrupt Handling", "icon": "Shield" },
+      { "id": 5, "label": "Register Reference", "icon": "Terminal" }
+    ],
+    "SYS-ARC-05": [
+      { "id": 1, "label": "Getting Started", "icon": "PlayCircle" },
+      { "id": 2, "label": "Hardware Architecture", "icon": "Cpu" },
+      { "id": 3, "label": "C-Language Logic", "icon": "Code" },
+      { "id": 4, "label": "Interrupt Handling", "icon": "Shield" },
+      { "id": 5, "label": "Register Reference", "icon": "Terminal" }
+    ],
+    "RPA-ADV-06": [
+      { "id": 1, "label": "Getting Started", "icon": "PlayCircle" },
+      { "id": 2, "label": "Hardware Architecture", "icon": "Cpu" },
+      { "id": 3, "label": "C-Language Logic", "icon": "Code" },
+      { "id": 4, "label": "Interrupt Handling", "icon": "Shield" },
+      { "id": 5, "label": "Register Reference", "icon": "Terminal" }
+    ]
+  },
+  "stages": [
+    {
+      "month": 1,
+      "name": "Automation-First Problem-Solving",
+      "courses": "data.courses.slice(0, 2)"
+    },
+    {
+      "month": 2,
+      "name": "Industrial Systems & AI Integration",
+      "courses": "data.courses.slice(2, 4)"
+    },
+    {
+      "month": 3,
+      "name": "Advanced Process Control & Robotics",
+      "courses": "data.courses.slice(4, 6)"
+    }
+  ]
+}

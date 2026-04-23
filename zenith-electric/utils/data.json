@@ -141,14 +141,25 @@
       "features": ["Analytics", "IoT", "Load Shedding"]
     },
     {
-      "id": "03",
+  "id": "03",
+  "title": "PCB Design with KiCAD",
+  "icon": "GiCircuitry", 
+  "desc": "End-to-end hardware development, from schematic capture to multi-layer PCB layout and manufacturing preparation.",
+  "features": [
+    "Custom footprint & symbol creation",
+    "BOM generation & Gerber export",
+    "3D visualization & enclosure fit-check"
+  ]
+},
+    {
+      "id": "04",
       "title": "Electrical Schematic Design",
       "icon": "Layout",
       "desc": "Precision CAD drafting compliant with global IEC safety standards.",
       "features": ["CAD", "Panels", "Circuit Mapping"]
     },
     {
-      "id": "04",
+      "id": "05",
       "title": "Industrial & Commercial Wiring",
       "icon": "Factory",
       "desc": "Infrastructure and cable management for heavy-load industrial hubs.",
